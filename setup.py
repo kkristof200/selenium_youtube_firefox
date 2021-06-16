@@ -10,7 +10,7 @@ else:
 
 setuptools.setup(
     name='selenium_youtube_firefox',
-    version='0.0.1',
+    version='0.0.2',
     author='Kristóf-Attila Kovács',
     description='selenium_youtube_firefox',
     long_description=long_description,
@@ -18,8 +18,8 @@ setuptools.setup(
     url='https://github.com/kkristof200/selenium_youtube_firefox',
     packages=setuptools.find_packages(),
     install_requires=[
-        'kproxy>=0.0.1',
-        'selenium-firefox>=2.0.5',
+        'kproxy>=0.0.2',
+        'selenium-firefox>=2.0.7',
         'selenium-youtube>=2.0.3'
     ],
     classifiers=[
